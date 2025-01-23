@@ -1,7 +1,7 @@
 
 // Definir o intervalo de anos para análise
-var startYear = '2013-01-01'; // Ano inicial
-var endYear = '2013-12-31';   // Ano final
+var startYear = '2021-01-01'; // Ano inicial
+var endYear = '2021-12-31';   // Ano final
 
 //Importar shape para definir a ROI
 var roi = ee.Geometry.Polygon([
@@ -256,7 +256,7 @@ var legend = ui.Panel({
 });
 // Create and add the legend title.
 var legendTitle = ui.Label({
-  value: 'Cobertura de Mangal  (2013)',
+  value: 'Cobertura de Mangal  (2021)',
   style: {
     fontWeight: 'bold',
     fontSize: '18px',
